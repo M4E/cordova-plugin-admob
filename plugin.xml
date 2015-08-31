@@ -21,9 +21,11 @@
         <clobbers target="window.plugins.AdMob" />
     </js-module>
 
-    <!-- v6 <dependency id="com.google.admobsdk"/> -->
-    <!-- Google AdMob framework -->
+    <!-- v6 -->
+    <dependency id="com.google.admobsdk"/>
+    <!-- Google AdMob framework 
     <dependency id="com.ios.libgoogleadmobads" url="https://github.com/appfeel/google-iosadmobads" commit="v.7.3.1"/>
+    -->
 
     <!-- android -->
     <platform name="android">
